@@ -1,0 +1,7 @@
+---
+- name: Install Neutron on Controller
+  package:
+    name:
+      - neutron-server
+      - neutron-plugin-ml2
+    state: present

@@ -1,0 +1,15 @@
+[controller]
+controller-01 ansible_host=192.168.1.7
+
+[compute]
+compute-01 ansible_host=192.168.1.7
+compute-02 ansible_host=192.168.1.7
+
+[neutron]
+controller-01
+
+[horizon]
+controller-01
+
+[cinder]
+controller-01

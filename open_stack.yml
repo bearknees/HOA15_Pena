@@ -1,0 +1,16 @@
+---
+- name: OpenStack Installation Playbook
+  hosts: all
+  become: true
+  tasks:
+    - name: Include Neutron Role
+      include_role:
+        name: neutron
+
+    - name: Include Horizon Role
+      include_role:
+        name: horizon
+
+    - name: Include Cinder Role
+      include_role:
+        name: cinder

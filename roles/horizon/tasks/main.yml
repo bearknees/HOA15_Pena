@@ -1,0 +1,6 @@
+---
+- name: Install Horizon packages
+  package:
+    name:
+      - openstack-dashboard
+    state: present

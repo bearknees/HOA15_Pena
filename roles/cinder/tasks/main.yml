@@ -1,0 +1,7 @@
+---
+- name: Install Cinder packages
+  package:
+    name:
+      - cinder-api
+      - cinder-scheduler
+    state: present
